@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#555555"
+    tools:context=".ui.dashboard.DashboardFragment">
+
+<!--    <com.x.selfchat.ui.dashboard.MyGLSurfaceView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent">-->
+
+<!--    </com.x.selfchat.ui.dashboard.MyGLSurfaceView>-->
+    <com.x.selfchat.ui.dashboard.MyGLTextureView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha="0.8"
+        >
+
+    </com.x.selfchat.ui.dashboard.MyGLTextureView>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
